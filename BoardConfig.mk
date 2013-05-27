@@ -30,5 +30,5 @@
 TARGET_OTA_ASSERT_DEVICE := jfltespr
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_jfltespr_defconfig
+TARGET_KERNEL_CONFIG    := jf_spr_defconfig
 
