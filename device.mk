@@ -15,13 +15,13 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/d2spr/d2spr-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/jfltespr/jfltespr-vendor.mk)
 
 ## overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/d2spr/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltespr/overlay
 
 ## common overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
+DEVICE_PACKAGE_OVERLAYS += device/samsung/djf-common/overlay-cdma
 
-# Inherit from d2-common
-$(call inherit-product, device/samsung/d2-common/d2-common.mk)
+# Inherit from jf-common
+$(call inherit-product, device/samsung/jf-common/jf-common.mk)

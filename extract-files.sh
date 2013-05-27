@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=d2spr
+export DEVICE=jfltespr
 export VENDOR=samsung
-./../d2-common/extract-files.sh $@
+./../jf-common/extract-files.sh $@

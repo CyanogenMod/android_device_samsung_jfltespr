@@ -20,17 +20,15 @@
 # definition file).
 #
 
-# inherit from common D2
--include device/samsung/d2-common/BoardConfigCommon.mk
+# inherit from common jf
+-include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/d2spr/BoardConfigVendor.mk
+-include vendor/samsung/jfltespr/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2spr,d2spi
+TARGET_OTA_ASSERT_DEVICE := jfltespr
 
 # Kernel
-TARGET_KERNEL_CONFIG    := cyanogen_d2spr_defconfig
-
-TARGET_BOARD_INFO_FILE ?= device/samsung/d2spr/board-info.txt
+TARGET_KERNEL_CONFIG    := cyanogen_jfltespr_defconfig
 
