@@ -17,6 +17,9 @@
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/jfltespr/jfltespr-vendor.mk)
 
+# Disable MSB for GPS
+NEEDS_GPS_MSB_DISABLED := true
+
 ## overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/jfltespr/overlay
 
