@@ -21,14 +21,10 @@
 #
 
 # inherit from common jf
--include device/samsung/jf-common/BoardConfigCommon.mk
+include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 -include vendor/samsung/jfltespr/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltespr
-
-# Kernel
-TARGET_KERNEL_CONFIG    := jf_spr_defconfig
-
+TARGET_OTA_ASSERT_DEVICE := jfltespr,jflte
