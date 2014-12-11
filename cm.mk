@@ -9,8 +9,10 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=jfltespr \
     TARGET_DEVICE=jfltespr \
-    BUILD_FINGERPRINT="samsung/jfltespr/jfltespr:4.2.2/JDQ39/L720VPUAMDL:user/release-keys" \
-    PRIVATE_BUILD_DESC="jfltespr-user 4.2.2 JDQ39 L720VPUAMDL release-key"
+    BUILD_FINGERPRINT="samsung/jfltespr/jfltespr:4.4.2/KOT49H/L720VPUFNG2:user/release-keys" \
+    PRIVATE_BUILD_DESC="jfltespr-user 4.4.2 KOT49H L720VPUFNG2 release-keys"
+
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_NAME := cm_jfltespr
 PRODUCT_DEVICE := jfltespr
