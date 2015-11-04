@@ -32,3 +32,7 @@ PRODUCT_DEVICE := jfltespr
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SPH-L720
+
+# Stlport
+PRODUCT_PACKAGES += \
+    libstlport
