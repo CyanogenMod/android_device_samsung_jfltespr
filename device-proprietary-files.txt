@@ -1,5 +1,21 @@
 # Add device specific blobs here
 
+# CNE
+vendor/lib/libcneapiclient.so
+
+# Qualcomm framework
+vendor/lib/libdiag.so
+vendor/lib/libdsutils.so
+vendor/lib/libidl.so
+vendor/lib/libqcci_legacy.so
+vendor/lib/libqmi.so
+vendor/lib/libqmi_cci.so
+vendor/lib/libqmi_client_qmux.so
+vendor/lib/libqmi_common_so.so
+vendor/lib/libqmi_csi.so
+vendor/lib/libqmi_encdec.so
+vendor/lib/libqmiservices.so
+
 # Radio/QMI
 bin/efsks
 bin/ks
@@ -17,18 +33,6 @@ lib/librmnetctl.so
 lib/libsec-ril.so
 lib/libsecril-client.so
 lib/libxml.so
-vendor/lib/libcneapiclient.so
 vendor/lib/libconfigdb.so
-vendor/lib/libdiag.so
-vendor/lib/libdsutils.so
-vendor/lib/libidl.so
 vendor/lib/libnetmgr.so
-vendor/lib/libqcci_legacy.so
-vendor/lib/libqmi.so
-vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_qmux.so
-vendor/lib/libqmi_common_so.so
-vendor/lib/libqmi_csi.so
-vendor/lib/libqmi_encdec.so
-vendor/lib/libqmiservices.so
 vendor/lib/libril-qcril-hook-oem.so
