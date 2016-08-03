@@ -36,7 +36,3 @@ PRODUCT_MODEL := SPH-L720
 # Qualcomm
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
-
-# Stlport
-PRODUCT_PACKAGES += \
-    libstlport
